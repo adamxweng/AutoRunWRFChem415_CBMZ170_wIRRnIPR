@@ -27,7 +27,7 @@ ln -sf $camchemdir/${camchemfile2} ./h0002.nc &&\
 mv $targetwrfchemdir/wrfinput_d01 . &&\
 mv $targetwrfchemdir/wrfbdy_d01 . &&\
 cp $targetwrfchemdir/met_em* . &&\
-./mozbc < CBMZ_INP/20220714_CBMZ_mozbc_asManyasPossible_add_OLI_OLT.inp  >& ${logdir}/mozbcCBMZrun.log && \
+./mozbc < CBMZ_INP/20231006_CBMZ170_mozbc8bin_asManyasPossible_add_OLI_OLT.inp  >& ${logdir}/mozbcCBMZrun.log && \
 trash met_em*
 cd $targetwrfchemdir
 mv $mozbcdir415/wrfbdy_d01 .
