@@ -230,8 +230,8 @@ cat > ${namelistdir}/${namelistwrf} <<EOF
  aer_ic_opt                          = 1, 1, 1,                   ! aerosol initial conditions, 1 = default
  gaschem_onoff                       = 1, 1, 1,                   ! gas phase chemistry, 1 = on
  aerchem_onoff                       = 1, 1, 1,                   ! aerosol chemistry, 1 = on
- wetscav_onoff                       = 1, 1, 1,                   ! wet scavenging in stratocumulus clouds, 1 = on
- cldchem_onoff                       = 1, 1, 1,                   ! aqueous chemistry in stratocumulus clouds, 1 = on
+ wetscav_onoff                       = 0, 1, 1,                   ! wet scavenging in stratocumulus clouds, 1 = on
+ cldchem_onoff                       = 0, 1, 1,                   ! aqueous chemistry in stratocumulus clouds, 1 = on
  vertmix_onoff                       = 1, 1, 1,                   ! vertical turbulent mixing, 1 = on
  chem_conv_tr                        = 1, 0, 0,                   ! subgrid convective transport, 1 = on
  conv_tr_wetscav                     = 1, 0, 0,                   ! wet scavenging in cumulus clouds, subgrid, 1 = on
@@ -443,8 +443,8 @@ cat > ${namelistdir}/${namelistreal} <<EOF
  aer_ic_opt                          = 1, 1, 1,                   ! aerosol initial conditions, 1 = default
  gaschem_onoff                       = 1, 1, 1,                   ! gas phase chemistry, 1 = on
  aerchem_onoff                       = 1, 1, 1,                   ! aerosol chemistry, 1 = on
- wetscav_onoff                       = 1, 1, 1,                   ! wet scavenging in stratocumulus clouds, 1 = on
- cldchem_onoff                       = 1, 1, 1,                   ! aqueous chemistry in stratocumulus clouds, 1 = on
+ wetscav_onoff                       = 0, 1, 1,                   ! wet scavenging in stratocumulus clouds, 1 = on
+ cldchem_onoff                       = 0, 1, 1,                   ! aqueous chemistry in stratocumulus clouds, 1 = on
  vertmix_onoff                       = 1, 1, 1,                   ! vertical turbulent mixing, 1 = on
  chem_conv_tr                        = 1, 0, 0,                   ! subgrid convective transport, 1 = on
  conv_tr_wetscav                     = 1, 0, 0,                   ! wet scavenging in cumulus clouds, subgrid, 1 = on
